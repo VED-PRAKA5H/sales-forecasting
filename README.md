@@ -19,3 +19,16 @@
 Experiment with different regression models (e.g., Linear Regression, Random Forest, Support Vector Regression).
 Fine-tune model hyperparameters to improve performance.
 Explore more advanced feature engineering techniques.
+
+## run the setup tools
+
+`.` stands for current folder.
+```shell
+pip install -e .
+```
+## streamlit run
+use any one command to run the streamlit app:
+```shell
+python -m streamlit run main.py
+streamlit run main.py
+```
